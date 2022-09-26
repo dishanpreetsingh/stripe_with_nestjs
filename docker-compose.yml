@@ -1,0 +1,8 @@
+version: '3'
+services:
+  stripe:
+    build: .
+    image: stripe
+    restart: always
+    ports:
+      - "9090:9090"
